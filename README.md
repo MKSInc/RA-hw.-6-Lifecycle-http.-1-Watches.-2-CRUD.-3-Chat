@@ -1,5 +1,6 @@
 <a name="top"></a>
-
+[![Build status](https://ci.appveyor.com/api/projects/status/3ec0731tleo3ig6g?svg=true)](https://ci.appveyor.com/project/MKSInc/ra-hw-6-lifecycle-http-1-watches-2-crud-3-chat)
+### [Gh-pages](https://mksinc.github.io/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/)
 # 6. Домашнее задание к лекции «Жизненный цикл и работа с HTTP»
 
 **Перейти к:**  
