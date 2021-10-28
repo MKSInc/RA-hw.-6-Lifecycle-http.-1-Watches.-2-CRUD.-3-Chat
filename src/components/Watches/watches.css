@@ -1,0 +1,17 @@
+/* watches.css */
+
+.watches {
+  padding: 20px 0;
+}
+
+.watches__form {
+  margin: 0 auto 20px auto;
+}
+
+.watches__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -15px 0 -15px -15px;
+}
+

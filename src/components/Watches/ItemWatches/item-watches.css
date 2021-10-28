@@ -1,0 +1,161 @@
+/* item-watches.css */
+
+.item-watches {
+  padding: 15px;
+}
+
+.item-watches__title {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.item-watches__main {
+  position: relative;
+}
+
+.item-watches__time-digit {
+  margin-bottom: 5px;
+
+  font-size: 12px;
+  text-align: center;
+}
+
+.item-watches__clock-face {
+  margin: 0 auto;
+}
+
+.clock-face {
+  width: 80px;
+  height: 80px;
+
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.item-watches__btn-remove {
+  position: absolute;
+  display: block;
+  top: -3px;
+  right: -15px;
+  width: 20px;
+  height: 20px;
+
+  border: 1px solid grey;
+  border-radius: 50%;
+
+  transition-property: border-color;
+  transition: .2s;
+}
+
+.item-watches__btn-remove:hover {
+  border-color: black;
+}
+
+.item-watches__btn-remove::before,
+.item-watches__btn-remove::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 10px;
+  height: 1px;
+
+  background-color: gray;
+
+  transition-property: background-color;
+  transition: .2s;
+}
+
+.item-watches__btn-remove::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+} 
+
+.item-watches__btn-remove::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+} 
+
+.item-watches__btn-remove:hover::before,
+.item-watches__btn-remove:hover::after {
+  background-color: black;
+}
+
+.clock-face {
+  position: relative;
+}
+
+.clock-face::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+
+  background-color: black;
+
+  transform: translate(-50%, -50%);
+}
+
+.clock-face__hand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  background-color: black;
+
+  transform-origin: bottom;
+}
+
+.clock-face__hand::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 6px solid black;
+
+}
+
+/* Угол поворота стрелки . */
+
+.clock-face__hour-hand {
+  width: 2px;
+  height: 25px;
+
+  transform: translate(-50%, -100%) rotate(60deg); /* Угол поворота часовой стрелки. */
+}
+
+.clock-face__hour-hand::after {
+  transform: translate(-35%, 0);
+}
+
+.clock-face__minute-hand {
+  width: 1px;
+  height: 35px;
+
+  transform: translate(-50%, -100%) rotate(0deg); /* Угол поворота минутной стрелки. */
+}
+
+.clock-face__minute-hand::after {
+  transform: translate(-40%, 0);
+}
+
+.clock-face__second-hand {
+  width: 1px;
+  height: 35px;
+
+  background-color: gray;
+
+  transform: translate(-50%, -100%) rotate(150deg); /* Угол поворота секундной стрелки. */
+}
+
+.clock-face__second-hand::after {
+  display: none;
+}
