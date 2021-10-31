@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/static/css/main.cb90a6e1.chunk.css",
+    "main.js": "/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/static/js/main.78c525c8.chunk.js",
+    "main.js.map": "/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/static/js/main.78c525c8.chunk.js.map",
+    "runtime-main.js": "/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/static/js/runtime-main.50d070bf.js",
+    "runtime-main.js.map": "/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/static/js/runtime-main.50d070bf.js.map",
+    "static/js/2.2b8a2a4f.chunk.js": "/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/static/js/2.2b8a2a4f.chunk.js",
+    "static/js/2.2b8a2a4f.chunk.js.map": "/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/static/js/2.2b8a2a4f.chunk.js.map",
+    "index.html": "/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/index.html",
+    "static/css/main.cb90a6e1.chunk.css.map": "/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/static/css/main.cb90a6e1.chunk.css.map",
+    "static/js/2.2b8a2a4f.chunk.js.LICENSE.txt": "/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/static/js/2.2b8a2a4f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50d070bf.js",
+    "static/js/2.2b8a2a4f.chunk.js",
+    "static/css/main.cb90a6e1.chunk.css",
+    "static/js/main.78c525c8.chunk.js"
+  ]
+}
