@@ -5,8 +5,6 @@ import Note from './Note/Note';
 import links from './utility/links';
 import './crud.css';
 
-console.log(links);
-
 export default class CRUD extends React.Component {
   constructor(props) {
     super(props)
