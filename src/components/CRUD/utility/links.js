@@ -3,16 +3,13 @@
 
 const url = new URL(window.location.href);
 
-console.log('url', url);
-console.log('url.hostname', url.hostname);
-
 // Параметры для разработки.
 if (url.hostname === 'localhost') {
   url.port = '4000';
 }
 
+// Для фронтенда на git-hub.
 if (url.hostname === 'mksinc.github.io') {
-  console.log('frontend on git-hub');
   url.hostname = 'ra-6-2-crud.herokuapp.com';
   url.protocol = 'https';
 }
