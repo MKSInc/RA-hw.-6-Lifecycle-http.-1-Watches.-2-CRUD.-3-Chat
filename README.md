@@ -1,7 +1,7 @@
 <a name="top"></a>
 [![Build status](https://ci.appveyor.com/api/projects/status/3ec0731tleo3ig6g?svg=true)](https://ci.appveyor.com/project/MKSInc/ra-hw-6-lifecycle-http-1-watches-2-crud-3-chat)
 ### [Gh-pages](https://mksinc.github.io/RA-hw.-6-Lifecycle-http.-1-Watches.-2-CRUD.-3-Chat/)
-### [Heroku](https://ra-6-2-crud.herokuapp.com/#task2)
+### [6.2 CRUD Heroku server + frontend](https://ra-6-2-crud.herokuapp.com/#task2)
 
 # 6. Домашнее задание к лекции «Жизненный цикл и работа с HTTP»
 
@@ -34,7 +34,7 @@
 1. Можете использовать библиотеку momentjs.
 
 
-## <a name="6.2">6.2 CRUD</a>
+## <a name="6.2">6.2 CRUD (Frontend, [Backend](https://github.com/MKSInc/RA-hw.-6-Lifecycle-http.-2-CRUD.-Backend))</a>
 ***[(наверх)](#top)***
 
 Вам необходимо реализовать базовый CRUD (без обновления) при работе с HTTP.
