@@ -11,6 +11,12 @@ if (url.hostname === 'localhost') {
   url.port = '4000';
 }
 
+if (url.hostname === 'mksinc.github.io') {
+  console.log('frontend on git-hub');
+  url.hostname = 'ra-6-2-crud.herokuapp.com';
+  url.protocol = 'https';
+}
+
 const root = url;
 root.pathname = ''; // Убираем ненужный путь (/ru, /en, ...), чтобы ссылка была на корень.
 
