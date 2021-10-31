@@ -1,0 +1,54 @@
+/* crud__header.css */
+
+.crud__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.crud__title {
+  margin-right: 20px;
+
+  font-size: 28px;
+}
+
+.crud__btn-udate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 36px;
+  height: 36px;
+
+  font-size: 10px;
+
+  border: 1px solid black;
+  border-radius: 50%;
+
+  color: rgb(63, 209, 63);
+  opacity: 0.5;
+  transition-property: opacity;
+  transition: 0.2s;
+}
+
+.crud__btn-udate:hover {
+  opacity: 1;
+}
+
+.crud__btn-udate_animated {
+  animation-name: update;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes update {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.crud__link-udate .material-icons {
+  font-size: 22px;
+}

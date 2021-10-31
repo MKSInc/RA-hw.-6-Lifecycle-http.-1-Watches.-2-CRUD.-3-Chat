@@ -1,4 +1,5 @@
 import Watches from './components/Watches';
+import CRUD from './components/CRUD/CRUD';
 
 export default function App() {
 	return (
@@ -45,6 +46,7 @@ export default function App() {
 					</header>
 					<div className={'task__body'}>
 						{/* Компонент задачи 2. */}
+						<CRUD />
 					</div>
 				</div>
 

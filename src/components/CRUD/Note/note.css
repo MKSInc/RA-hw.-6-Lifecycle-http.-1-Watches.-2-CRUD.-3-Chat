@@ -1,0 +1,68 @@
+/* note.css */
+
+.note {
+  position: relative;
+  padding: 20px;
+
+  border: 1px solid black;
+}
+
+.note__body {
+  font-size: 14px;
+  text-align: center;
+}
+
+.note__btn-remove {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid #808080;
+  border-radius: 50%;
+
+  background-color: white;
+
+  transition-property: border;
+  transition-duration: 0.2s;
+}
+
+.note__btn-remove:hover {
+  border: 1px solid #000000;
+}
+
+.note__btn-remove::before,
+.note__btn-remove::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 15px;
+  height: 2px;
+
+  background-color: #ff6666;
+
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+
+.note__btn-remove::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.note__btn-remove::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.note__btn-remove:hover::before,
+.note__btn-remove:hover::after {
+  background-color: #ff0000;
+}
+
+@media(max-width: 479px) {
+  .note {
+    padding: 10px;
+  }
+}

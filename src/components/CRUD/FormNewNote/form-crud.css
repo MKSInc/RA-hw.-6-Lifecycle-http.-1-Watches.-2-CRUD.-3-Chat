@@ -1,0 +1,47 @@
+/* form-crud.css */
+
+.form-new-note__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-new-note__title {
+  margin-right: 20px;
+
+  font-size: 18px;
+}
+
+.form-new-note__btn-send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 36px;
+  height: 36px;
+
+  border: 1px solid black;
+  border-radius: 50%;  
+
+  opacity: 0.5;
+
+  transition-property: opacity;
+  transition-duration: 0.2s;
+}
+
+.form-new-note__btn-send::after {
+  content: '\27A4';
+  font-size: 20px;
+  line-height: 100%;
+
+  transform: translateX(1px);
+}
+
+.form-new-note__btn-send:hover {
+  opacity: 1;
+}
+
+.form-new-note__input {
+  max-width: 350px;
+  width: 100%;
+  padding: 10px;
+}
